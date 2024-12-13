@@ -1,0 +1,33 @@
+ft_print_comb2.c: Error!
+Error: SPACE_REPLACE_TAB    (line:  18, col:   9):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  19, col:   9):	Found space when expecting tab
+Error: MIXED_SPACE_TAB      (line:  20, col:   8):	Mixed spaces and tabs
+Error: SPACE_REPLACE_TAB    (line:  20, col:   8):	Found space when expecting tab
+Error: CONSECUTIVE_SPC      (line:  20, col:  13):	Two or more consecutives spaces
+Error: MISALIGNED_VAR_DECL  (line:  20, col:  18):	Misaligned variable declaration
+Error: MIXED_SPACE_TAB      (line:  21, col:   8):	Mixed spaces and tabs
+Error: CONSECUTIVE_SPC      (line:  21, col:   9):	Two or more consecutives spaces
+Error: MISALIGNED_VAR_DECL  (line:  21, col:  14):	Misaligned variable declaration
+Error: SPC_AFTER_OPERATOR   (line:  23, col:   7):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  23, col:   7):	missing space before operator
+Error: ASSIGN_IN_CONTROL    (line:  38, col:  21):	Assignment in control structure
+Error: CONSECUTIVE_SPC      (line:  38, col:  28):	Two or more consecutives spaces
+Error: TOO_MANY_LINES       (line:  46, col:   1):	Function has more than 25 lines
+Error: CONSECUTIVE_NEWLINES (line:  48, col:   1):	Consecutive newlines
+Error: SPACE_BEFORE_FUNC    (line:  49, col:   4):	space before function name
+Error: CONSECUTIVE_NEWLINES (line:  55, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  56, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  57, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  58, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  59, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  60, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  61, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  62, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  63, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  64, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  65, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  66, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  67, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  68, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  69, col:   1):	Consecutive newlines
+Error: EMPTY_LINE_EOF       (line:  69, col:   1):	Empty line at end of file

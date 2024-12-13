@@ -1,0 +1,32 @@
+ft_strcapitalize.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  15, col:   4):	space before function name
+Error: SPACE_BEFORE_FUNC    (line:  19, col:   4):	space before function name
+Error: CONSECUTIVE_NEWLINES (line:  23, col:   1):	Consecutive newlines
+Error: TAB_INSTEAD_SPC      (line:  33, col:  44):	Found tab when expecting space
+Error: TOO_FEW_TAB          (line:  33, col:  45):	Missing tabs for indent level
+Error: TOO_MANY_INSTR       (line:  33, col:  45):	Too many instructions on a single line
+Error: EXP_NEWLINE          (line:  33, col:  55):	Expected newline after control structure
+Error: SPC_AFTER_OPERATOR   (line:  37, col:  22):	missing space after operator
+Error: TOO_FEW_TAB          (line:  37, col:  44):	Missing tabs for indent level
+Error: TOO_MANY_INSTR       (line:  37, col:  44):	Too many instructions on a single line
+Error: EXP_NEWLINE          (line:  37, col:  54):	Expected newline after control structure
+Error: SPC_BEFORE_NL        (line:  39, col:  57):	Space before newline
+Error: SPACE_AFTER_KW       (line:  41, col:  13):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  41, col:  15):	Missing space before parenthesis (brace/bracket)
+Error: SPC_AFTER_OPERATOR   (line:  41, col:  21):	missing space after operator
+Error: TOO_FEW_TAB          (line:  41, col:  43):	Missing tabs for indent level
+Error: TOO_MANY_INSTR       (line:  41, col:  43):	Too many instructions on a single line
+Error: EXP_NEWLINE          (line:  41, col:  53):	Expected newline after control structure
+Error: SPC_BEFORE_NL        (line:  43, col:  13):	Space before newline
+Error: SPACE_AFTER_KW       (line:  45, col:  13):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  45, col:  15):	Missing space before parenthesis (brace/bracket)
+Error: SPC_AFTER_OPERATOR   (line:  45, col:  21):	missing space after operator
+Error: SPC_AFTER_OPERATOR   (line:  45, col:  35):	missing space after operator
+Error: TOO_FEW_TAB          (line:  45, col:  42):	Missing tabs for indent level
+Error: TOO_MANY_INSTR       (line:  45, col:  42):	Too many instructions on a single line
+Error: EXP_NEWLINE          (line:  45, col:  52):	Expected newline after control structure
+Error: SPC_AFTER_PAR        (line:  60, col:  21):	Missing space after parenthesis (brace/bracket)
+Error: DECL_ASSIGN_LINE     (line:  60, col:  22):	Declaration and assignation on a single line
+Error: SPC_AFTER_OPERATOR   (line:  60, col:  22):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  60, col:  22):	missing space before operator
+Error: LINE_TOO_LONG        (line:  60, col:  86):	line too long

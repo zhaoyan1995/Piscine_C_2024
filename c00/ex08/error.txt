@@ -1,0 +1,133 @@
+ft_print_combn.c: Error!
+Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+Error: PREPROC_NO_SPACE     (line:   1, col:   9):	Missing space after preprocessor directive
+Error: PREPROC_NO_SPACE     (line:   2, col:   9):	Missing space after preprocessor directive
+Error: SPACE_BEFORE_FUNC    (line:   8, col:   5):	space before function name
+Error: SPC_AFTER_OPERATOR   (line:   8, col:  32):	missing space after operator
+Error: SPACE_AFTER_KW       (line:  10, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  10, col:   7):	Missing space before parenthesis (brace/bracket)
+Error: SPC_AFTER_OPERATOR   (line:  10, col:  13):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  10, col:  13):	missing space before operator
+Error: MIXED_SPACE_TAB      (line:  10, col:  29):	Mixed spaces and tabs
+Error: TAB_INSTEAD_SPC      (line:  10, col:  30):	Found tab when expecting space
+Error: WRONG_SCOPE_COMMENT  (line:  10, col:  41):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  10, col:  41):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line:  12, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  12, col:  12):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  12, col:  14):	Declaration and assignation on a single line
+Error: SPC_AFTER_OPERATOR   (line:  12, col:  14):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  12, col:  14):	missing space before operator
+Error: SPACE_AFTER_KW       (line:  13, col:   9):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  13, col:  14):	Missing space before parenthesis (brace/bracket)
+Error: SPC_AFTER_OPERATOR   (line:  13, col:  16):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  13, col:  16):	missing space before operator
+Error: CONSECUTIVE_SPC      (line:  13, col:  31):	Two or more consecutives spaces
+Error: LINE_TOO_LONG        (line:  13, col:  45):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  13, col:  45):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  13, col:  45):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  13, col:  90):	line too long
+Error: WRONG_SCOPE_VAR      (line:  15, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  15, col:  17):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  15, col:  24):	Declaration and assignation on a single line
+Error: SPC_AFTER_OPERATOR   (line:  15, col:  24):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  15, col:  24):	missing space before operator
+Error: SPC_AFTER_OPERATOR   (line:  15, col:  33):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  15, col:  33):	missing space before operator
+Error: CONSECUTIVE_SPC      (line:  15, col:  38):	Two or more consecutives spaces
+Error: SPC_BEFORE_NL        (line:  15, col:  38):	Space before newline
+Error: SPC_AFTER_OPERATOR   (line:  16, col:  20):	missing space after operator
+Error: SPC_AFTER_OPERATOR   (line:  16, col:  28):	missing space after operator
+Error: WRONG_SCOPE_COMMENT  (line:  17, col:  18):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  17, col:  18):	Comment is invalid in this scope
+Error: SPACE_AFTER_KW       (line:  19, col:   9):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  19, col:  11):	Missing space before parenthesis (brace/bracket)
+Error: SPC_AFTER_PAR        (line:  19, col:  19):	Missing space after parenthesis (brace/bracket)
+Error: SPC_BFR_OPERATOR     (line:  19, col:  20):	missing space before operator
+Error: SPC_BFR_PAR          (line:  19, col:  22):	Missing space before parenthesis (brace/bracket)
+Error: SPC_AFTER_OPERATOR   (line:  19, col:  25):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  19, col:  25):	missing space before operator
+Error: CONSECUTIVE_SPC      (line:  19, col:  41):	Two or more consecutives spaces
+Error: LINE_TOO_LONG        (line:  19, col:  45):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  19, col:  45):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  19, col:  45):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  19, col:  96):	line too long
+Error: SPC_BEFORE_NL        (line:  20, col:  10):	Space before newline
+Error: SPC_AFTER_OPERATOR   (line:  21, col:  20):	missing space after operator
+Error: SPC_AFTER_OPERATOR   (line:  21, col:  25):	missing space after operator
+Error: SPACE_AFTER_KW       (line:  23, col:   9):	Missing space after keyword
+Error: WRONG_SCOPE_COMMENT  (line:  25, col:   1):	Comment is invalid in this scope
+Error: SPACE_AFTER_KW       (line:  26, col:   5):	Missing space after keyword
+Error: SPC_BFR_PAR          (line:  26, col:  10):	Missing space before parenthesis (brace/bracket)
+Error: SPC_AFTER_OPERATOR   (line:  26, col:  16):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  26, col:  16):	missing space before operator
+Error: SPC_AFTER_PAR        (line:  28, col:  20):	Missing space after parenthesis (brace/bracket)
+Error: SPC_AFTER_OPERATOR   (line:  28, col:  21):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  28, col:  21):	missing space before operator
+Error: CONSECUTIVE_SPC      (line:  28, col:  28):	Two or more consecutives spaces
+Error: WRONG_SCOPE_COMMENT  (line:  28, col:  30):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  28, col:  30):	Comment is invalid in this scope
+Error: SPC_AFTER_OPERATOR   (line:  29, col:  29):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  29, col:  35):	missing space before operator
+Error: SPC_AFTER_OPERATOR   (line:  29, col:  37):	missing space after operator
+Error: SPC_AFTER_OPERATOR   (line:  29, col:  51):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  29, col:  57):	missing space before operator
+Error: LINE_TOO_LONG        (line:  29, col:  62):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  29, col:  62):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  29, col:  62):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  29, col: 100):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  30, col:  18):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  30, col:  18):	Comment is invalid in this scope
+Error: SPACE_BEFORE_FUNC    (line:  34, col:   5):	space before function name
+Error: CONSECUTIVE_SPC      (line:  34, col:  27):	Two or more consecutives spaces
+Error: EMPTY_LINE_FUNCTION  (line:  36, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line:  36, col:   1):	Space on empty line
+Error: SPACE_AFTER_KW       (line:  37, col:   5):	Missing space after keyword
+Error: NO_SPC_AFR_PAR       (line:  37, col:   7):	Extra space after parenthesis (brace/bracket)
+Error: SPC_BFR_PAR          (line:  37, col:   7):	Missing space before parenthesis (brace/bracket)
+Error: SPC_AFTER_OPERATOR   (line:  37, col:  10):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  37, col:  10):	missing space before operator
+Error: SPC_AFTER_OPERATOR   (line:  37, col:  17):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  37, col:  17):	missing space before operator
+Error: CONSECUTIVE_SPC      (line:  37, col:  21):	Two or more consecutives spaces
+Error: WRONG_SCOPE_COMMENT  (line:  37, col:  23):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  37, col:  23):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line:  39, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  39, col:  12):	Found space when expecting tab
+Error: WRONG_SCOPE_COMMENT  (line:  39, col:  21):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  39, col:  21):	Comment is invalid in this scope
+Error: SPC_AFTER_OPERATOR   (line:  40, col:  27):	missing space after operator
+Error: SPC_AFTER_OPERATOR   (line:  40, col:  29):	missing space after operator
+Error: SPC_AFTER_OPERATOR   (line:  40, col:  31):	missing space after operator
+Error: CONSECUTIVE_SPC      (line:  40, col:  35):	Two or more consecutives spaces
+Error: LINE_TOO_LONG        (line:  40, col:  37):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  40, col:  37):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  40, col:  37):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  40, col: 112):	line too long
+Error: CONSECUTIVE_SPC      (line:  42, col:   9):	Two or more consecutives spaces
+Error: WRONG_SCOPE_COMMENT  (line:  42, col:  12):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  42, col:  12):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line:  44, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  44, col:  13):	Found space when expecting tab
+Error: SPC_AFTER_PAR        (line:  44, col:  18):	Missing space after parenthesis (brace/bracket)
+Error: DECL_ASSIGN_LINE     (line:  44, col:  19):	Declaration and assignation on a single line
+Error: SPC_AFTER_OPERATOR   (line:  44, col:  19):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  44, col:  19):	missing space before operator
+Error: LINE_TOO_LONG        (line:  44, col:  74):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  44, col:  74):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  44, col:  74):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  44, col:  97):	line too long
+Error: WRONG_SCOPE_VAR      (line:  45, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  45, col:  12):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  45, col:  13):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  45, col:  19):	Declaration and assignation on a single line
+Error: SPC_AFTER_OPERATOR   (line:  45, col:  19):	missing space after operator
+Error: SPC_BFR_OPERATOR     (line:  45, col:  19):	missing space before operator
+Error: WRONG_SCOPE_COMMENT  (line:  45, col:  33):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  45, col:  33):	Comment is invalid in this scope
+Error: SPC_AFTER_OPERATOR   (line:  46, col:  16):	missing space after operator
+Error: SPC_AFTER_OPERATOR   (line:  46, col:  21):	missing space after operator
+Error: WRONG_SCOPE_COMMENT  (line:  46, col:  31):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  46, col:  31):	Comment is invalid in this scope
+Error: SPACE_EMPTY_LINE     (line:  49, col:   1):	Space on empty line
+Error: SPACE_BEFORE_FUNC    (line:  50, col:   4):	space before function name
+Error: RETURN_PARENTHESIS   (line:  53, col:  12):	Return value must be in parenthesis
