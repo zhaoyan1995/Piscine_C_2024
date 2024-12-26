@@ -1,38 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   test.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ZHAOYAN <ZHAOYan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/29 20:27:57 by ZHAOYAN           #+#    #+#             */
-/*   Updated: 2024/12/23 23:57:48 by ZHAOYAN          ###   ########.fr       */
+/*   Created: 2024/12/24 22:55:21 by ZHAOYAN           #+#    #+#             */
+/*   Updated: 2024/12/24 23:00:35 by ZHAOYAN          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include "/home/yan/Code_C/c08/ex00/ft.h"
+#include "ft_boolean.h"
 
-void	ft_swap(int *a, int *b);
-
-void	ft_swap(int *a, int *b)
+void	ft_putstr(char *str)
 {
-	int	x;
-
-	x = *b;
-	*b = *a;
-	*a = x;
+	while (*str)
+		write(1, str++, 1);
 }
 
-/*int	main(void)
+t_bool	ft_is_even(int nbr)
 {
-	int	a1;
-	int	b1;
+	return ((EVEN(nbr)) ? TRUE : FALSE);
+}
 
-	a1 = 43;
-	b1 = 26;
-	printf("Before using the function swap a=%d b=%d\n", a1, b1);
-	ft_swap(&a1, &b1);
-	printf("After using the function swap a=%d b=%d\n", a1, b1);
-	return (0);
-}*/
+int	main(int argc, char **argv)
+{
+	(void)argv;
+	if (ft_is_even(argc - 1) == TRUE)
+		ft_putstr(EVEN_MSG);
+	else
+		ft_putstr(ODD_MSG);
+	return (SUCCESS);
+}

@@ -1,38 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_swap.c                                          :+:      :+:    :+:   */
+/*   test.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ZHAOYAN <ZHAOYan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/29 20:27:57 by ZHAOYAN           #+#    #+#             */
-/*   Updated: 2024/12/23 23:57:48 by ZHAOYAN          ###   ########.fr       */
+/*   Created: 2024/12/25 18:26:22 by ZHAOYAN           #+#    #+#             */
+/*   Updated: 2024/12/25 18:36:35 by ZHAOYAN          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ft_point.h"
 #include <stdio.h>
-#include "/home/yan/Code_C/c08/ex00/ft.h"
 
-void	ft_swap(int *a, int *b);
-
-void	ft_swap(int *a, int *b)
+void	set_point(t_point *point)
 {
-	int	x;
-
-	x = *b;
-	*b = *a;
-	*a = x;
+	point -> x = 42;
+	point -> y = 21;
 }
 
-/*int	main(void)
+int	main(void)
 {
-	int	a1;
-	int	b1;
+	t_point	point;
 
-	a1 = 43;
-	b1 = 26;
-	printf("Before using the function swap a=%d b=%d\n", a1, b1);
-	ft_swap(&a1, &b1);
-	printf("After using the function swap a=%d b=%d\n", a1, b1);
+	set_point(&point);
+	printf("x = %d, y = %d\n", point.x, point.y);
 	return (0);
-}*/
+}
