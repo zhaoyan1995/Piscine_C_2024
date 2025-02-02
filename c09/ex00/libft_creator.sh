@@ -1,5 +1,5 @@
-#!/bin/sh
+#!/bin/bash
 gcc -c *.c
 ar rc libft.a *.o
 ranlib libft.a
-rm *.o
+rm *o

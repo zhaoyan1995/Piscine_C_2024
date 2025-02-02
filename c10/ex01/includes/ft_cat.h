@@ -1,27 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_cat.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ZHAOYan <ZHAOYan@student.42.fr>            +#+  +:+       +#+        */
+/*   By: ZHAOYAN <ZHAOYan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/28 17:08:47 by ZHAOYan           #+#    #+#             */
-/*   Updated: 2024/12/27 16:23:03 by ZHAOYAN          ###   ########.fr       */
+/*   Created: 2024/12/30 18:22:36 by ZHAOYAN           #+#    #+#             */
+/*   Updated: 2025/01/01 01:00:51 by ZHAOYAN          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include "ft.h"
+#ifndef FT_CAT_H
+# define FT_CAT_H
 
-void	ft_putchar(char c);
+int		ft_strlen(char *str);
+void	ft_putstr_2(char *str, int size);
+void	ft_put_errormsg(char *filename);
+void	ft_put_stdin(void);
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
-
-/*int	main(void)
-{
-	ft_putchar('a');
-	return (0);
-}*/
+#endif

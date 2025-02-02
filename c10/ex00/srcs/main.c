@@ -1,34 +1,40 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ZHAOYAN <ZHAOYan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/29 20:46:49 by ZHAOYAN           #+#    #+#             */
-/*   Updated: 2024/12/27 16:23:41 by ZHAOYAN          ###   ########.fr       */
+/*   Created: 2024/12/29 17:44:12 by ZHAOYAN           #+#    #+#             */
+/*   Updated: 2024/12/29 22:35:06 by ZHAOYAN          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <ft_display_file.h>
 #include <unistd.h>
-#include "ft.h"
+#include <fcntl.h>
 
-void	ft_putstr(char *str);
-
-void	ft_putstr(char *str)
+int	main(int argc, char **argv)
 {
-	while (*str != '\0')
+	int		file;
+	int		byte_size;
+	char	buffer[3000000];
+
+	if (argc <= 1 || argc > 2)
 	{
-		write(1, str, 1);
-		str++;
+		ft_error_arg(argc);
+		return (1);
 	}
-}
-
-/*int	main(void)
-{
-	char	*str;
-
-	str = "Hello Lilou, comment tu vas?\n";
-	ft_putstr(str);
+	file = open(argv[1], O_RDONLY);
+	if (file == -1)
+	{
+		ft_error_file_name();
+		return (1);
+	}
+	byte_size = read(file, buffer, sizeof(buffer) - 1);
+	buffer[byte_size] = '\0';
+	ft_putstr(buffer);
+	if (file != -1)
+		close(file);
 	return (0);
-}*/
+}

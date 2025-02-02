@@ -6,12 +6,12 @@
 /*   By: ZHAOYAN <ZHAOYan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/29 20:27:57 by ZHAOYAN           #+#    #+#             */
-/*   Updated: 2024/12/23 23:57:48 by ZHAOYAN          ###   ########.fr       */
+/*   Updated: 2024/12/27 16:26:21 by ZHAOYAN          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-#include "/home/yan/Code_C/c08/ex00/ft.h"
+#include "ft.h"
 
 void	ft_swap(int *a, int *b);
 

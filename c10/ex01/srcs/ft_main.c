@@ -1,34 +1,42 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_main.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ZHAOYAN <ZHAOYan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/29 20:46:49 by ZHAOYAN           #+#    #+#             */
-/*   Updated: 2024/12/27 16:23:41 by ZHAOYAN          ###   ########.fr       */
+/*   Created: 2024/12/30 11:58:22 by ZHAOYAN           #+#    #+#             */
+/*   Updated: 2025/01/01 01:03:23 by ZHAOYAN          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include "ft.h"
+#include <fcntl.h>
+#include "ft_cat.h"
 
-void	ft_putstr(char *str);
-
-void	ft_putstr(char *str)
+int	main(int argc, char **argv)
 {
-	while (*str != '\0')
+	int		file;
+	int		i;
+	int		byte_size;
+	char	buffer[30720];
+
+	if (argc == 1)
+		ft_put_stdin();
+	i = 1;
+	while (i < argc)
 	{
-		write(1, str, 1);
-		str++;
+		file = open(argv[i], O_RDONLY);
+		if (file == -1)
+			ft_put_errormsg(argv[i]);
+		else
+		{
+			byte_size = read(file, buffer, sizeof(buffer) - 1);
+			buffer[byte_size] = '\0';
+			ft_putstr_2(buffer, byte_size);
+			close(file);
+		}
+		i++;
 	}
-}
-
-/*int	main(void)
-{
-	char	*str;
-
-	str = "Hello Lilou, comment tu vas?\n";
-	ft_putstr(str);
 	return (0);
-}*/
+}

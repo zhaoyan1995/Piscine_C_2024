@@ -1,19 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_display_file.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ZHAOYAN <ZHAOYan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/29 20:46:49 by ZHAOYAN           #+#    #+#             */
-/*   Updated: 2024/12/27 16:23:41 by ZHAOYAN          ###   ########.fr       */
+/*   Created: 2024/12/29 17:44:12 by ZHAOYAN           #+#    #+#             */
+/*   Updated: 2024/12/29 22:27:56 by ZHAOYAN          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <fcntl.h>
 #include <unistd.h>
-#include "ft.h"
-
-void	ft_putstr(char *str);
+#include <ft_display_file.h>
 
 void	ft_putstr(char *str)
 {
@@ -24,11 +23,30 @@ void	ft_putstr(char *str)
 	}
 }
 
-/*int	main(void)
+void	ft_error_arg(int argc)
 {
-	char	*str;
+	char	*no_argument;
+	char	*too_many_argument;
 
-	str = "Hello Lilou, comment tu vas?\n";
-	ft_putstr(str);
-	return (0);
-}*/
+	no_argument = "File name missing.\n";
+	too_many_argument = "Too many arguments.\n";
+	if (argc <= 1)
+	{
+		ft_putstr(no_argument);
+		return ;
+	}
+	if (argc > 2)
+	{
+		ft_putstr(too_many_argument);
+		return ;
+	}
+}
+
+void	ft_error_file_name()
+{
+	char	*error_message;
+
+	error_message = "Cannot read file.\n";
+	ft_putstr(error_message);
+	return ;
+}

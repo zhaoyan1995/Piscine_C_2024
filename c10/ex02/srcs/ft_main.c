@@ -1,27 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_main.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ZHAOYan <ZHAOYan@student.42.fr>            +#+  +:+       +#+        */
+/*   By: ZHAOYAN <ZHAOYan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/28 17:08:47 by ZHAOYan           #+#    #+#             */
-/*   Updated: 2024/12/27 16:23:03 by ZHAOYAN          ###   ########.fr       */
+/*   Created: 2025/01/04 19:10:55 by ZHAOYAN           #+#    #+#             */
+/*   Updated: 2025/01/04 22:19:09 by ZHAOYAN          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include "ft.h"
+#include "ft_tail.h"
 
-void	ft_putchar(char c);
-
-void	ft_putchar(char c)
+int	main(int argc, char **argv)
 {
-	write(1, &c, 1);
-}
-
-/*int	main(void)
-{
-	ft_putchar('a');
+	if (argc <= 1)
+		ft_stdin();
+	else
+	{
+		if (argv[1][0] == '-' && argv[1][1] == 'c')
+			ft_option(argc, argv);
+		else
+			ft_check_argv(1, argc, argv, -1);
+	}
 	return (0);
-}*/
+}

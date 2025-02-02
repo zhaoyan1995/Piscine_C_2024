@@ -6,12 +6,12 @@
 /*   By: ZHAOYAN <ZHAOYan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/29 20:54:59 by ZHAOYAN           #+#    #+#             */
-/*   Updated: 2024/12/01 15:33:27 by ZHAOYAN          ###   ########.fr       */
+/*   Updated: 2024/12/27 16:26:02 by ZHAOYAN          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-#include <string.h>
+#include "ft.h"
 
 int	ft_strlen(char *str);
 
@@ -28,7 +28,7 @@ int	ft_strlen(char *str)
 	return (n);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	char	*str;
 	int		i;
@@ -38,4 +38,4 @@ int	main(void)
 	i = strlen(str);
 	printf("%d\n", i);
 	return (0);
-}
+}*/
